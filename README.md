@@ -34,12 +34,12 @@ O sistema implementa uma lógica de prioridades de segurança e eficiência ener
 
 O código opera sob um **Sistema de Prioridades** para garantir segurança e automação:
 
-1.  [cite_start]**Prioridade 1: Segurança (Temperatura)** [cite: 32]
+1. **Prioridade 1: Segurança (Temperatura)** [cite: 32]
     * Se a temperatura ultrapassar **31ºC**, o sistema entra em modo de ALERTA.
     * O LED é desligado forçadamente e o Buzzer é acionado.
-2.  [cite_start]**Prioridade 2: Eficiência (Luminosidade)** [cite: 34]
+2.  **Prioridade 2: Eficiência (Luminosidade)** [cite: 34]
     * Se o ambiente estiver muito claro (LDR < 1500), o LED apaga automaticamente para economizar energia (Modo Diurno).
-3.  [cite_start]**Prioridade 3: Controle do Usuário (Cores)** [cite: 36]
+3. **Prioridade 3: Controle do Usuário (Cores)** [cite: 36]
     * Se as condições acima estiverem normais, o usuário pode escolher a cor do LED.
 
     * OBS: Tantos os valores das condições do LDR e DHT (1500 e 31°C) foram escolhidos com base no ambiente onde o circuito estava sendo testado, portanto, essas condições são passíveis de alteração variando o ambiente.
